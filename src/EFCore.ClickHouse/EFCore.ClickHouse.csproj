@@ -5,8 +5,9 @@
     <AssemblyName>ClickHouse.EntityFrameworkCore</AssemblyName>
     <IsPackable>true</IsPackable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageProjectUrl>https://github.com/ClickHouse/ClickHouse.EntityFrameworkCore</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/ClickHouse/ClickHouse.EntityFrameworkCore</RepositoryUrl>
+    <Version>0.4.0-ef11</Version>
+    <PackageProjectUrl>https://github.com/ZaferGokhan/ClickHouse.EntityFrameworkCore</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ZaferGokhan/ClickHouse.EntityFrameworkCore</RepositoryUrl>
     <PackageIcon>icon.png</PackageIcon>
     <PackageTags>clickhouse;entity-framework-core;efcore;database;orm;linq</PackageTags>
     <Authors>ClickHouse</Authors>
@@ -24,8 +25,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="10.0.2" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.2" PrivateAssets="all" IncludeAssets="runtime; build; native; contentfiles; analyzers; buildtransitive" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="11.0.0-rc.2.26504.105" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="11.0.0-rc.2.26504.105" PrivateAssets="all" IncludeAssets="runtime; build; native; contentfiles; analyzers; buildtransitive" />
     <PackageReference Include="ClickHouse.Driver" Version="1.5.0" />
   </ItemGroup>
 

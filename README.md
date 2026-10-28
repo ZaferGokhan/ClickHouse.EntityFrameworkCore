@@ -22,7 +22,7 @@
 
 </p>
 
-The official Entity Framework Core provider for [ClickHouse](https://clickhouse.com/), built on top of [ClickHouse.Driver](https://github.com/ClickHouse/clickhouse-cs).
+Fork of the official Entity Framework Core provider for [ClickHouse](https://clickhouse.com/), retargeted to **EF Core 11 / net11.0**. Upstream: [ClickHouse/ClickHouse.EntityFrameworkCore](https://github.com/ClickHouse/ClickHouse.EntityFrameworkCore).
 
 Detailed documentation is available on the [ClickHouse website](https://clickhouse.com/docs/integrations/csharp#orm-support-ef-core).
 
@@ -338,4 +338,4 @@ dotnet build
 dotnet test    # requires Docker (uses Testcontainers)
 ```
 
-Targets .NET 10.0, EF Core 10.
+Targets .NET 11.0, EF Core 11 (`11.0.0-rc.2`). Package version `0.4.0-ef11`.

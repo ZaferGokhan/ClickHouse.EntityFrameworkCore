@@ -10,8 +10,8 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="3.*" />
     <PackageReference Include="Testcontainers.ClickHouse" Version="4.*" />
     <PackageReference Include="ClickHouse.Driver" Version="1.5.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.2" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational.Specification.Tests" Version="10.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="11.0.0-rc.2.26504.105" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational.Specification.Tests" Version="11.0.0-rc.2.26504.105" />
     <PackageReference Include="GitHubActionsTestLogger" Version="3.0.1">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
