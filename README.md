@@ -1,7 +1,12 @@
 <p align="center">
 <img src=".static/logo.svg" width="200px" align="center">
 <h1 align="center">ClickHouse Entity Framework Core Provider</h1>
+<h3 align="center">EF Core 11 / .NET 11 build</h3>
 </p>
+
+> **This fork is compiled for EF Core 11.**  
+> Official ClickHouse package on nuget.org targets EF Core 10 only. This repository retargets the provider to **EF Core 11.0.0-rc.2** and **net11.0** (`0.4.0-ef11`).
+
 <br/>
 <p align="center">
 <a href="https://www.nuget.org/packages/ClickHouse.EntityFrameworkCore">
@@ -22,7 +27,7 @@
 
 </p>
 
-Fork of the official Entity Framework Core provider for [ClickHouse](https://clickhouse.com/), retargeted to **EF Core 11 / net11.0**. Upstream: [ClickHouse/ClickHouse.EntityFrameworkCore](https://github.com/ClickHouse/ClickHouse.EntityFrameworkCore).
+Fork of the official Entity Framework Core provider for [ClickHouse](https://clickhouse.com/). **Compiled here for EF Core 11** (`net11.0`). Upstream: [ClickHouse/ClickHouse.EntityFrameworkCore](https://github.com/ClickHouse/ClickHouse.EntityFrameworkCore).
 
 Detailed documentation is available on the [ClickHouse website](https://clickhouse.com/docs/integrations/csharp#orm-support-ef-core).
 

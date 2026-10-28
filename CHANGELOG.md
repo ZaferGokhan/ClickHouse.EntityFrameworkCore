@@ -1,6 +1,6 @@
 v0.4.0-ef11
 ---
-* Retarget to **net11.0** and **EF Core 11.0.0-rc.2**. Official nuget still ships EF 10 only; this fork exists so AnyWork Signal can restore from GitHub.
+* This fork is **compiled for EF Core 11** (`net11.0`, `11.0.0-rc.2`). Official nuget still ships EF 10 only.
 
 v0.3.1 (Unreleased)
 ---
